@@ -2,13 +2,13 @@
 //  PaklanTests.swift
 //  PaklanTests
 //
-//  Created by Felipe Lima on 9/14/22.
+//  Created by Felipe Lima on 10/16/22.
 //
 
 import XCTest
 @testable import Paklan
 
-class PaklanTests: XCTestCase {
+final class PaklanTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -2,12 +2,12 @@
 //  PaklanUITestsLaunchTests.swift
 //  PaklanUITests
 //
-//  Created by Felipe Lima on 9/14/22.
+//  Created by Felipe Lima on 10/16/22.
 //
 
 import XCTest
 
-class PaklanUITestsLaunchTests: XCTestCase {
+final class PaklanUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

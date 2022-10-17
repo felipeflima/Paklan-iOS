@@ -3,65 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DBE0711A28D245DA0064496B /* PaklanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0711928D245DA0064496B /* PaklanApp.swift */; };
-		DBE0711C28D245DA0064496B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0711B28D245DA0064496B /* ContentView.swift */; };
-		DBE0711E28D245E10064496B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE0711D28D245E10064496B /* Assets.xcassets */; };
-		DBE0712128D245E10064496B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE0712028D245E10064496B /* Preview Assets.xcassets */; };
-		DBE0712B28D245E20064496B /* PaklanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0712A28D245E20064496B /* PaklanTests.swift */; };
-		DBE0713528D245E20064496B /* PaklanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0713428D245E20064496B /* PaklanUITests.swift */; };
-		DBE0713728D245E20064496B /* PaklanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0713628D245E20064496B /* PaklanUITestsLaunchTests.swift */; };
+		DBB7EED628FCC405000A2BCB /* PaklanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB7EED528FCC405000A2BCB /* PaklanApp.swift */; };
+		DBB7EED828FCC405000A2BCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB7EED728FCC405000A2BCB /* ContentView.swift */; };
+		DBB7EEDA28FCC407000A2BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB7EED928FCC407000A2BCB /* Assets.xcassets */; };
+		DBB7EEDD28FCC407000A2BCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB7EEDC28FCC407000A2BCB /* Preview Assets.xcassets */; };
+		DBB7EEE728FCC408000A2BCB /* PaklanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB7EEE628FCC408000A2BCB /* PaklanTests.swift */; };
+		DBB7EEF128FCC408000A2BCB /* PaklanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB7EEF028FCC408000A2BCB /* PaklanUITests.swift */; };
+		DBB7EEF328FCC408000A2BCB /* PaklanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB7EEF228FCC408000A2BCB /* PaklanUITestsLaunchTests.swift */; };
+		DBB7EF0128FCC7A9000A2BCB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DBB7EF0028FCC7A9000A2BCB /* FirebaseAnalytics */; };
+		DBB7EF0328FCC7A9000A2BCB /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DBB7EF0228FCC7A9000A2BCB /* FirebaseAnalyticsSwift */; };
+		DBB7EF0528FCC7A9000A2BCB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DBB7EF0428FCC7A9000A2BCB /* FirebaseAuth */; };
+		DBB7EF0728FCC7A9000A2BCB /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = DBB7EF0628FCC7A9000A2BCB /* FirebaseDatabase */; };
+		DBB7EF0928FCC7A9000A2BCB /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DBB7EF0828FCC7A9000A2BCB /* FirebaseDatabaseSwift */; };
+		DBB7EF0B28FCC7A9000A2BCB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DBB7EF0A28FCC7A9000A2BCB /* FirebaseFirestore */; };
+		DBB7EF0D28FCC8BA000A2BCB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBB7EF0C28FCC8BA000A2BCB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DBE0712728D245E20064496B /* PBXContainerItemProxy */ = {
+		DBB7EEE328FCC408000A2BCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DBE0710E28D245DA0064496B /* Project object */;
+			containerPortal = DBB7EECA28FCC405000A2BCB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DBE0711528D245DA0064496B;
+			remoteGlobalIDString = DBB7EED128FCC405000A2BCB;
 			remoteInfo = Paklan;
 		};
-		DBE0713128D245E20064496B /* PBXContainerItemProxy */ = {
+		DBB7EEED28FCC408000A2BCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DBE0710E28D245DA0064496B /* Project object */;
+			containerPortal = DBB7EECA28FCC405000A2BCB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DBE0711528D245DA0064496B;
+			remoteGlobalIDString = DBB7EED128FCC405000A2BCB;
 			remoteInfo = Paklan;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DBE0711628D245DA0064496B /* Paklan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paklan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBE0711928D245DA0064496B /* PaklanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanApp.swift; sourceTree = "<group>"; };
-		DBE0711B28D245DA0064496B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DBE0711D28D245E10064496B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DBE0712028D245E10064496B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DBE0712628D245E20064496B /* PaklanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaklanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBE0712A28D245E20064496B /* PaklanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanTests.swift; sourceTree = "<group>"; };
-		DBE0713028D245E20064496B /* PaklanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaklanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBE0713428D245E20064496B /* PaklanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITests.swift; sourceTree = "<group>"; };
-		DBE0713628D245E20064496B /* PaklanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBB7EED228FCC405000A2BCB /* Paklan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paklan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB7EED528FCC405000A2BCB /* PaklanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanApp.swift; sourceTree = "<group>"; };
+		DBB7EED728FCC405000A2BCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBB7EED928FCC407000A2BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB7EEDC28FCC407000A2BCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBB7EEE228FCC408000A2BCB /* PaklanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaklanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB7EEE628FCC408000A2BCB /* PaklanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanTests.swift; sourceTree = "<group>"; };
+		DBB7EEEC28FCC408000A2BCB /* PaklanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaklanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB7EEF028FCC408000A2BCB /* PaklanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITests.swift; sourceTree = "<group>"; };
+		DBB7EEF228FCC408000A2BCB /* PaklanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBB7EF0C28FCC8BA000A2BCB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DBE0711328D245DA0064496B /* Frameworks */ = {
+		DBB7EECF28FCC405000A2BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB7EF0928FCC7A9000A2BCB /* FirebaseDatabaseSwift in Frameworks */,
+				DBB7EF0328FCC7A9000A2BCB /* FirebaseAnalyticsSwift in Frameworks */,
+				DBB7EF0528FCC7A9000A2BCB /* FirebaseAuth in Frameworks */,
+				DBB7EF0728FCC7A9000A2BCB /* FirebaseDatabase in Frameworks */,
+				DBB7EF0128FCC7A9000A2BCB /* FirebaseAnalytics in Frameworks */,
+				DBB7EF0B28FCC7A9000A2BCB /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB7EEDF28FCC408000A2BCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBE0712328D245E20064496B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBE0712D28D245E20064496B /* Frameworks */ = {
+		DBB7EEE928FCC408000A2BCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +85,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DBE0710D28D245DA0064496B = {
+		DBB7EEC928FCC405000A2BCB = {
 			isa = PBXGroup;
 			children = (
-				DBE0711828D245DA0064496B /* Paklan */,
-				DBE0712928D245E20064496B /* PaklanTests */,
-				DBE0713328D245E20064496B /* PaklanUITests */,
-				DBE0711728D245DA0064496B /* Products */,
+				DBB7EED428FCC405000A2BCB /* Paklan */,
+				DBB7EEE528FCC408000A2BCB /* PaklanTests */,
+				DBB7EEEF28FCC408000A2BCB /* PaklanUITests */,
+				DBB7EED328FCC405000A2BCB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DBE0711728D245DA0064496B /* Products */ = {
+		DBB7EED328FCC405000A2BCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBE0711628D245DA0064496B /* Paklan.app */,
-				DBE0712628D245E20064496B /* PaklanTests.xctest */,
-				DBE0713028D245E20064496B /* PaklanUITests.xctest */,
+				DBB7EED228FCC405000A2BCB /* Paklan.app */,
+				DBB7EEE228FCC408000A2BCB /* PaklanTests.xctest */,
+				DBB7EEEC28FCC408000A2BCB /* PaklanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DBE0711828D245DA0064496B /* Paklan */ = {
+		DBB7EED428FCC405000A2BCB /* Paklan */ = {
 			isa = PBXGroup;
 			children = (
-				DBE0711928D245DA0064496B /* PaklanApp.swift */,
-				DBE0711B28D245DA0064496B /* ContentView.swift */,
-				DBE0711D28D245E10064496B /* Assets.xcassets */,
-				DBE0711F28D245E10064496B /* Preview Content */,
+				DBB7EED528FCC405000A2BCB /* PaklanApp.swift */,
+				DBB7EED728FCC405000A2BCB /* ContentView.swift */,
+				DBB7EF0C28FCC8BA000A2BCB /* GoogleService-Info.plist */,
+				DBB7EED928FCC407000A2BCB /* Assets.xcassets */,
+				DBB7EEDB28FCC407000A2BCB /* Preview Content */,
 			);
 			path = Paklan;
 			sourceTree = "<group>";
 		};
-		DBE0711F28D245E10064496B /* Preview Content */ = {
+		DBB7EEDB28FCC407000A2BCB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DBE0712028D245E10064496B /* Preview Assets.xcassets */,
+				DBB7EEDC28FCC407000A2BCB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DBE0712928D245E20064496B /* PaklanTests */ = {
+		DBB7EEE528FCC408000A2BCB /* PaklanTests */ = {
 			isa = PBXGroup;
 			children = (
-				DBE0712A28D245E20064496B /* PaklanTests.swift */,
+				DBB7EEE628FCC408000A2BCB /* PaklanTests.swift */,
 			);
 			path = PaklanTests;
 			sourceTree = "<group>";
 		};
-		DBE0713328D245E20064496B /* PaklanUITests */ = {
+		DBB7EEEF28FCC408000A2BCB /* PaklanUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DBE0713428D245E20064496B /* PaklanUITests.swift */,
-				DBE0713628D245E20064496B /* PaklanUITestsLaunchTests.swift */,
+				DBB7EEF028FCC408000A2BCB /* PaklanUITests.swift */,
+				DBB7EEF228FCC408000A2BCB /* PaklanUITestsLaunchTests.swift */,
 			);
 			path = PaklanUITests;
 			sourceTree = "<group>";
@@ -130,120 +145,132 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DBE0711528D245DA0064496B /* Paklan */ = {
+		DBB7EED128FCC405000A2BCB /* Paklan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBE0713A28D245E20064496B /* Build configuration list for PBXNativeTarget "Paklan" */;
+			buildConfigurationList = DBB7EEF628FCC408000A2BCB /* Build configuration list for PBXNativeTarget "Paklan" */;
 			buildPhases = (
-				DBE0711228D245DA0064496B /* Sources */,
-				DBE0711328D245DA0064496B /* Frameworks */,
-				DBE0711428D245DA0064496B /* Resources */,
+				DBB7EECE28FCC405000A2BCB /* Sources */,
+				DBB7EECF28FCC405000A2BCB /* Frameworks */,
+				DBB7EED028FCC405000A2BCB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Paklan;
+			packageProductDependencies = (
+				DBB7EF0028FCC7A9000A2BCB /* FirebaseAnalytics */,
+				DBB7EF0228FCC7A9000A2BCB /* FirebaseAnalyticsSwift */,
+				DBB7EF0428FCC7A9000A2BCB /* FirebaseAuth */,
+				DBB7EF0628FCC7A9000A2BCB /* FirebaseDatabase */,
+				DBB7EF0828FCC7A9000A2BCB /* FirebaseDatabaseSwift */,
+				DBB7EF0A28FCC7A9000A2BCB /* FirebaseFirestore */,
+			);
 			productName = Paklan;
-			productReference = DBE0711628D245DA0064496B /* Paklan.app */;
+			productReference = DBB7EED228FCC405000A2BCB /* Paklan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DBE0712528D245E20064496B /* PaklanTests */ = {
+		DBB7EEE128FCC408000A2BCB /* PaklanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBE0713D28D245E20064496B /* Build configuration list for PBXNativeTarget "PaklanTests" */;
+			buildConfigurationList = DBB7EEF928FCC408000A2BCB /* Build configuration list for PBXNativeTarget "PaklanTests" */;
 			buildPhases = (
-				DBE0712228D245E20064496B /* Sources */,
-				DBE0712328D245E20064496B /* Frameworks */,
-				DBE0712428D245E20064496B /* Resources */,
+				DBB7EEDE28FCC408000A2BCB /* Sources */,
+				DBB7EEDF28FCC408000A2BCB /* Frameworks */,
+				DBB7EEE028FCC408000A2BCB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DBE0712828D245E20064496B /* PBXTargetDependency */,
+				DBB7EEE428FCC408000A2BCB /* PBXTargetDependency */,
 			);
 			name = PaklanTests;
 			productName = PaklanTests;
-			productReference = DBE0712628D245E20064496B /* PaklanTests.xctest */;
+			productReference = DBB7EEE228FCC408000A2BCB /* PaklanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DBE0712F28D245E20064496B /* PaklanUITests */ = {
+		DBB7EEEB28FCC408000A2BCB /* PaklanUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBE0714028D245E20064496B /* Build configuration list for PBXNativeTarget "PaklanUITests" */;
+			buildConfigurationList = DBB7EEFC28FCC408000A2BCB /* Build configuration list for PBXNativeTarget "PaklanUITests" */;
 			buildPhases = (
-				DBE0712C28D245E20064496B /* Sources */,
-				DBE0712D28D245E20064496B /* Frameworks */,
-				DBE0712E28D245E20064496B /* Resources */,
+				DBB7EEE828FCC408000A2BCB /* Sources */,
+				DBB7EEE928FCC408000A2BCB /* Frameworks */,
+				DBB7EEEA28FCC408000A2BCB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DBE0713228D245E20064496B /* PBXTargetDependency */,
+				DBB7EEEE28FCC408000A2BCB /* PBXTargetDependency */,
 			);
 			name = PaklanUITests;
 			productName = PaklanUITests;
-			productReference = DBE0713028D245E20064496B /* PaklanUITests.xctest */;
+			productReference = DBB7EEEC28FCC408000A2BCB /* PaklanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DBE0710E28D245DA0064496B /* Project object */ = {
+		DBB7EECA28FCC405000A2BCB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					DBE0711528D245DA0064496B = {
-						CreatedOnToolsVersion = 13.4.1;
+					DBB7EED128FCC405000A2BCB = {
+						CreatedOnToolsVersion = 14.0.1;
 					};
-					DBE0712528D245E20064496B = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = DBE0711528D245DA0064496B;
+					DBB7EEE128FCC408000A2BCB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DBB7EED128FCC405000A2BCB;
 					};
-					DBE0712F28D245E20064496B = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = DBE0711528D245DA0064496B;
+					DBB7EEEB28FCC408000A2BCB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DBB7EED128FCC405000A2BCB;
 					};
 				};
 			};
-			buildConfigurationList = DBE0711128D245DA0064496B /* Build configuration list for PBXProject "Paklan" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = DBB7EECD28FCC405000A2BCB /* Build configuration list for PBXProject "Paklan" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = DBE0710D28D245DA0064496B;
-			productRefGroup = DBE0711728D245DA0064496B /* Products */;
+			mainGroup = DBB7EEC928FCC405000A2BCB;
+			packageReferences = (
+				DBB7EEFF28FCC7A8000A2BCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DBB7EED328FCC405000A2BCB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DBE0711528D245DA0064496B /* Paklan */,
-				DBE0712528D245E20064496B /* PaklanTests */,
-				DBE0712F28D245E20064496B /* PaklanUITests */,
+				DBB7EED128FCC405000A2BCB /* Paklan */,
+				DBB7EEE128FCC408000A2BCB /* PaklanTests */,
+				DBB7EEEB28FCC408000A2BCB /* PaklanUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DBE0711428D245DA0064496B /* Resources */ = {
+		DBB7EED028FCC405000A2BCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE0712128D245E10064496B /* Preview Assets.xcassets in Resources */,
-				DBE0711E28D245E10064496B /* Assets.xcassets in Resources */,
+				DBB7EEDD28FCC407000A2BCB /* Preview Assets.xcassets in Resources */,
+				DBB7EF0D28FCC8BA000A2BCB /* GoogleService-Info.plist in Resources */,
+				DBB7EEDA28FCC407000A2BCB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBE0712428D245E20064496B /* Resources */ = {
+		DBB7EEE028FCC408000A2BCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBE0712E28D245E20064496B /* Resources */ = {
+		DBB7EEEA28FCC408000A2BCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,55 +280,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DBE0711228D245DA0064496B /* Sources */ = {
+		DBB7EECE28FCC405000A2BCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE0711C28D245DA0064496B /* ContentView.swift in Sources */,
-				DBE0711A28D245DA0064496B /* PaklanApp.swift in Sources */,
+				DBB7EED828FCC405000A2BCB /* ContentView.swift in Sources */,
+				DBB7EED628FCC405000A2BCB /* PaklanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBE0712228D245E20064496B /* Sources */ = {
+		DBB7EEDE28FCC408000A2BCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE0712B28D245E20064496B /* PaklanTests.swift in Sources */,
+				DBB7EEE728FCC408000A2BCB /* PaklanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBE0712C28D245E20064496B /* Sources */ = {
+		DBB7EEE828FCC408000A2BCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE0713528D245E20064496B /* PaklanUITests.swift in Sources */,
-				DBE0713728D245E20064496B /* PaklanUITestsLaunchTests.swift in Sources */,
+				DBB7EEF128FCC408000A2BCB /* PaklanUITests.swift in Sources */,
+				DBB7EEF328FCC408000A2BCB /* PaklanUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DBE0712828D245E20064496B /* PBXTargetDependency */ = {
+		DBB7EEE428FCC408000A2BCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DBE0711528D245DA0064496B /* Paklan */;
-			targetProxy = DBE0712728D245E20064496B /* PBXContainerItemProxy */;
+			target = DBB7EED128FCC405000A2BCB /* Paklan */;
+			targetProxy = DBB7EEE328FCC408000A2BCB /* PBXContainerItemProxy */;
 		};
-		DBE0713228D245E20064496B /* PBXTargetDependency */ = {
+		DBB7EEEE28FCC408000A2BCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DBE0711528D245DA0064496B /* Paklan */;
-			targetProxy = DBE0713128D245E20064496B /* PBXContainerItemProxy */;
+			target = DBB7EED128FCC405000A2BCB /* Paklan */;
+			targetProxy = DBB7EEED28FCC408000A2BCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DBE0713828D245E20064496B /* Debug */ = {
+		DBB7EEF428FCC408000A2BCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -345,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -355,13 +382,13 @@
 			};
 			name = Debug;
 		};
-		DBE0713928D245E20064496B /* Release */ = {
+		DBB7EEF528FCC408000A2BCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -399,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -409,7 +436,7 @@
 			};
 			name = Release;
 		};
-		DBE0713B28D245E20064496B /* Debug */ = {
+		DBB7EEF728FCC408000A2BCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -438,7 +465,7 @@
 			};
 			name = Debug;
 		};
-		DBE0713C28D245E20064496B /* Release */ = {
+		DBB7EEF828FCC408000A2BCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -467,7 +494,7 @@
 			};
 			name = Release;
 		};
-		DBE0713E28D245E20064496B /* Debug */ = {
+		DBB7EEFA28FCC408000A2BCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -476,18 +503,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8T8CC2XYY3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.flima.PaklanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paklan.app/Paklan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paklan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paklan";
 			};
 			name = Debug;
 		};
-		DBE0713F28D245E20064496B /* Release */ = {
+		DBB7EEFB28FCC408000A2BCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -496,18 +523,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8T8CC2XYY3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.flima.PaklanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paklan.app/Paklan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paklan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paklan";
 			};
 			name = Release;
 		};
-		DBE0714128D245E20064496B /* Debug */ = {
+		DBB7EEFD28FCC408000A2BCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,7 +552,7 @@
 			};
 			name = Debug;
 		};
-		DBE0714228D245E20064496B /* Release */ = {
+		DBB7EEFE28FCC408000A2BCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -546,43 +573,87 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DBE0711128D245DA0064496B /* Build configuration list for PBXProject "Paklan" */ = {
+		DBB7EECD28FCC405000A2BCB /* Build configuration list for PBXProject "Paklan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBE0713828D245E20064496B /* Debug */,
-				DBE0713928D245E20064496B /* Release */,
+				DBB7EEF428FCC408000A2BCB /* Debug */,
+				DBB7EEF528FCC408000A2BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBE0713A28D245E20064496B /* Build configuration list for PBXNativeTarget "Paklan" */ = {
+		DBB7EEF628FCC408000A2BCB /* Build configuration list for PBXNativeTarget "Paklan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBE0713B28D245E20064496B /* Debug */,
-				DBE0713C28D245E20064496B /* Release */,
+				DBB7EEF728FCC408000A2BCB /* Debug */,
+				DBB7EEF828FCC408000A2BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBE0713D28D245E20064496B /* Build configuration list for PBXNativeTarget "PaklanTests" */ = {
+		DBB7EEF928FCC408000A2BCB /* Build configuration list for PBXNativeTarget "PaklanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBE0713E28D245E20064496B /* Debug */,
-				DBE0713F28D245E20064496B /* Release */,
+				DBB7EEFA28FCC408000A2BCB /* Debug */,
+				DBB7EEFB28FCC408000A2BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBE0714028D245E20064496B /* Build configuration list for PBXNativeTarget "PaklanUITests" */ = {
+		DBB7EEFC28FCC408000A2BCB /* Build configuration list for PBXNativeTarget "PaklanUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBE0714128D245E20064496B /* Debug */,
-				DBE0714228D245E20064496B /* Release */,
+				DBB7EEFD28FCC408000A2BCB /* Debug */,
+				DBB7EEFE28FCC408000A2BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DBB7EEFF28FCC7A8000A2BCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBB7EF0028FCC7A9000A2BCB /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBB7EEFF28FCC7A8000A2BCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DBB7EF0228FCC7A9000A2BCB /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBB7EEFF28FCC7A8000A2BCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		DBB7EF0428FCC7A9000A2BCB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBB7EEFF28FCC7A8000A2BCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DBB7EF0628FCC7A9000A2BCB /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBB7EEFF28FCC7A8000A2BCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		DBB7EF0828FCC7A9000A2BCB /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBB7EEFF28FCC7A8000A2BCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		DBB7EF0A28FCC7A9000A2BCB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBB7EEFF28FCC7A8000A2BCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = DBE0710E28D245DA0064496B /* Project object */;
+	rootObject = DBB7EECA28FCC405000A2BCB /* Project object */;
 }
