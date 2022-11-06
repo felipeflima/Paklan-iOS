@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Authentication.swift
 //  Paklan
 //
 //  Created by Felipe Lima on 11/6/22.
@@ -7,9 +7,9 @@
 
 import SwiftUI
 import FirebaseAuth
-let Pgray = Color(0x242424)
+//let Pgray = Color(0x242424)
 
-class AppViewModel: ObservableObject{
+class AuthenticationController: ObservableObject{
     
     let auth = Auth.auth()
     
@@ -50,32 +50,21 @@ class AppViewModel: ObservableObject{
     }
 }
 
-struct ContentView: View {
+struct Authentication: View {
     
-    @EnvironmentObject var viewModel: AppViewModel
+    @EnvironmentObject var authEnvObj: AuthenticationController
     
     var body: some View {
         NavigationView{
-            if viewModel.signedIn{
-                VStack{
-                    Text("You are singed in")
-                    Button(action: {
-                        viewModel.signOut()
-                    },label: {
-                        Text("Sign Out")
-                            .foregroundColor(Color.blue)
-                            .frame(width: 200, height: 50)
-                            .background(Color.green)
-                            .padding()
-                    })
-                }
+            if authEnvObj.signedIn{
+                HomeView()
             }
             else{
                 SignInView()
             }
         }
         .onAppear{
-            viewModel.signedIn = viewModel.isSignedIn
+            authEnvObj.signedIn = authEnvObj.isSignedIn
         }
     }
 }
@@ -84,7 +73,7 @@ struct SignInView: View {
     @State var email = ""
     @State var password = ""
     
-    @EnvironmentObject var viewModel: AppViewModel
+    @EnvironmentObject var authEnvObj: AuthenticationController
     
     var body: some View {
         ZStack{
@@ -116,13 +105,14 @@ struct SignInView: View {
                         guard !email.isEmpty, !password.isEmpty else{
                             return
                         }
-                        viewModel.signIn(email: email, password: password)
+                        authEnvObj.signIn(email: email, password: password)
                     } label: {
                         Text("Sign In")
                             .foregroundColor(Color.white)
                             .frame(width: 200, height: 50)
-                            .cornerRadius(10)
                             .background(Color.purple)
+                            .cornerRadius(10)
+                            .offset(y:10)
                     }
                     
                     NavigationLink("Create Account", destination: SignUpView())
@@ -143,7 +133,7 @@ struct SignUpView: View {
     @State var email = ""
     @State var password = ""
     
-    @EnvironmentObject var viewModel: AppViewModel
+    @EnvironmentObject var authEnvObj: AuthenticationController
     
     var body: some View {
         ZStack{
@@ -175,13 +165,14 @@ struct SignUpView: View {
                         guard !email.isEmpty, !password.isEmpty else{
                             return
                         }
-                        viewModel.signUp(email: email, password: password)
+                        authEnvObj.signUp(email: email, password: password)
                     } label: {
                         Text("Create Account")
                             .foregroundColor(Color.white)
                             .frame(width: 200, height: 50)
-                            .cornerRadius(10)
                             .background(Color.purple)
+                            .cornerRadius(10)
+                            .offset(y: 10)
                     }
                     
                 }
@@ -197,8 +188,8 @@ struct SignUpView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            .environmentObject(AppViewModel())
+        Authentication()
+            .environmentObject(AuthenticationController())
     }
 }
 

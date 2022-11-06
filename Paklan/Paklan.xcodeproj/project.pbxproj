@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB08D6CF2918156C0017EB67 /* PaklanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08D6CE2918156C0017EB67 /* PaklanApp.swift */; };
-		DB08D6D12918156C0017EB67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08D6D02918156C0017EB67 /* ContentView.swift */; };
+		DB08D6D12918156C0017EB67 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08D6D02918156C0017EB67 /* Authentication.swift */; };
 		DB08D6D3291815730017EB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB08D6D2291815730017EB67 /* Assets.xcassets */; };
 		DB08D6D6291815730017EB67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB08D6D5291815730017EB67 /* Preview Assets.xcassets */; };
 		DB08D6E0291815740017EB67 /* PaklanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08D6DF291815740017EB67 /* PaklanTests.swift */; };
@@ -26,6 +26,9 @@
 		DB08D70A29181BA90017EB67 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DB08D70929181BA90017EB67 /* FirebaseFirestore */; };
 		DB08D70C29181BAA0017EB67 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB08D70B29181BAA0017EB67 /* FirebaseFirestoreSwift */; };
 		DB08D70E29181BAA0017EB67 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DB08D70D29181BAA0017EB67 /* FirebaseStorage */; };
+		DB6A08832918517E00BC4636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* HomeView.swift */; };
+		DB6A08842918517E00BC4636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* HomeView.swift */; };
+		DB6A08852918517E00BC4636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +51,7 @@
 /* Begin PBXFileReference section */
 		DB08D6CB2918156C0017EB67 /* Paklan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paklan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB08D6CE2918156C0017EB67 /* PaklanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanApp.swift; sourceTree = "<group>"; };
-		DB08D6D02918156C0017EB67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB08D6D02918156C0017EB67 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		DB08D6D2291815730017EB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB08D6D5291815730017EB67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB08D6DB291815740017EB67 /* PaklanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaklanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +60,7 @@
 		DB08D6E9291815740017EB67 /* PaklanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITests.swift; sourceTree = "<group>"; };
 		DB08D6EB291815740017EB67 /* PaklanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB08D6F829181AB30017EB67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB6A08822918517E00BC4636 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				DB08D6CE2918156C0017EB67 /* PaklanApp.swift */,
-				DB08D6D02918156C0017EB67 /* ContentView.swift */,
+				DB08D6D02918156C0017EB67 /* Authentication.swift */,
+				DB6A08822918517E00BC4636 /* HomeView.swift */,
 				DB08D6F829181AB30017EB67 /* GoogleService-Info.plist */,
 				DB08D6D2291815730017EB67 /* Assets.xcassets */,
 				DB08D6D4291815730017EB67 /* Preview Content */,
@@ -297,7 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB08D6D12918156C0017EB67 /* ContentView.swift in Sources */,
+				DB08D6D12918156C0017EB67 /* Authentication.swift in Sources */,
+				DB6A08832918517E00BC4636 /* HomeView.swift in Sources */,
 				DB08D6CF2918156C0017EB67 /* PaklanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6A08842918517E00BC4636 /* HomeView.swift in Sources */,
 				DB08D6E0291815740017EB67 /* PaklanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB08D6EA291815740017EB67 /* PaklanUITests.swift in Sources */,
+				DB6A08852918517E00BC4636 /* HomeView.swift in Sources */,
 				DB08D6EC291815740017EB67 /* PaklanUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
