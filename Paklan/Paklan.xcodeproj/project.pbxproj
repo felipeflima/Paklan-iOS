@@ -26,9 +26,12 @@
 		DB08D70A29181BA90017EB67 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DB08D70929181BA90017EB67 /* FirebaseFirestore */; };
 		DB08D70C29181BAA0017EB67 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB08D70B29181BAA0017EB67 /* FirebaseFirestoreSwift */; };
 		DB08D70E29181BAA0017EB67 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DB08D70D29181BAA0017EB67 /* FirebaseStorage */; };
-		DB6A08832918517E00BC4636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* HomeView.swift */; };
-		DB6A08842918517E00BC4636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* HomeView.swift */; };
-		DB6A08852918517E00BC4636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* HomeView.swift */; };
+		DB6A08832918517E00BC4636 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* IndexView.swift */; };
+		DB6A08842918517E00BC4636 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* IndexView.swift */; };
+		DB6A08852918517E00BC4636 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* IndexView.swift */; };
+		DB6A08882918666500BC4636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08872918666500BC4636 /* HomeView.swift */; };
+		DB6A08892918666500BC4636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08872918666500BC4636 /* HomeView.swift */; };
+		DB6A088A2918666500BC4636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08872918666500BC4636 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +63,8 @@
 		DB08D6E9291815740017EB67 /* PaklanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITests.swift; sourceTree = "<group>"; };
 		DB08D6EB291815740017EB67 /* PaklanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB08D6F829181AB30017EB67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DB6A08822918517E00BC4636 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB6A08822918517E00BC4636 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
+		DB6A08872918666500BC4636 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +124,10 @@
 		DB08D6CD2918156C0017EB67 /* Paklan */ = {
 			isa = PBXGroup;
 			children = (
+				DB6A08862918661D00BC4636 /* Screens */,
 				DB08D6CE2918156C0017EB67 /* PaklanApp.swift */,
 				DB08D6D02918156C0017EB67 /* Authentication.swift */,
-				DB6A08822918517E00BC4636 /* HomeView.swift */,
+				DB6A08822918517E00BC4636 /* IndexView.swift */,
 				DB08D6F829181AB30017EB67 /* GoogleService-Info.plist */,
 				DB08D6D2291815730017EB67 /* Assets.xcassets */,
 				DB08D6D4291815730017EB67 /* Preview Content */,
@@ -153,6 +158,14 @@
 				DB08D6EB291815740017EB67 /* PaklanUITestsLaunchTests.swift */,
 			);
 			path = PaklanUITests;
+			sourceTree = "<group>";
+		};
+		DB6A08862918661D00BC4636 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DB6A08872918666500BC4636 /* HomeView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB08D6D12918156C0017EB67 /* Authentication.swift in Sources */,
-				DB6A08832918517E00BC4636 /* HomeView.swift in Sources */,
+				DB6A08882918666500BC4636 /* HomeView.swift in Sources */,
+				DB6A08832918517E00BC4636 /* IndexView.swift in Sources */,
 				DB08D6CF2918156C0017EB67 /* PaklanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,7 +326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB6A08842918517E00BC4636 /* HomeView.swift in Sources */,
+				DB6A08892918666500BC4636 /* HomeView.swift in Sources */,
+				DB6A08842918517E00BC4636 /* IndexView.swift in Sources */,
 				DB08D6E0291815740017EB67 /* PaklanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +337,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB08D6EA291815740017EB67 /* PaklanUITests.swift in Sources */,
-				DB6A08852918517E00BC4636 /* HomeView.swift in Sources */,
+				DB6A088A2918666500BC4636 /* HomeView.swift in Sources */,
+				DB6A08852918517E00BC4636 /* IndexView.swift in Sources */,
 				DB08D6EC291815740017EB67 /* PaklanUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

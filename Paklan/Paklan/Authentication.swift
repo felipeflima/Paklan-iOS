@@ -123,7 +123,7 @@ struct SignInView: View {
                 //                    Spacer()
             }
         }
-        //            .navigationTitle("Sign In")
+//                    .navigationTitle("Sign In")
         
     }
 }
