@@ -57,7 +57,7 @@ struct Authentication: View {
     var body: some View {
         NavigationView{
             if authEnvObj.signedIn{
-                HomeView()
+                IndexView()
             }
             else{
                 SignInView()

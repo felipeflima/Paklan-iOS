@@ -7,18 +7,37 @@
 
 import SwiftUI
 
+//struct TabViewColor: View {
+//    init() {
+//        UITabBar.appearance().backgroundColor = UIColor.red
+//    }
+//}
+
+
 struct IndexView: View {
     @EnvironmentObject var authEnvObj: AuthenticationController
     var body: some View {
-        
-        TabView{
-            HomeView()
-                .tabItem(){
-                    Image(systemName: "house")
-                        .resizable()
-                        .scaledToFit()
-                    Text("Home")
-                }
+        ZStack{
+            TabView{
+                HomeView()
+                    .tabItem(){
+                        Label("Home", systemImage: "house")
+                    }
+                HomeView()
+                    .tabItem(){
+                        Image(systemName: "house")
+                            .resizable()
+                            .scaledToFit()
+                        Text("Home")
+                    }
+                HomeView()
+                    .tabItem(){
+                        Image(systemName: "house")
+                            .resizable()
+                            .scaledToFit()
+                        Text("Home")
+                    }
+            }
         }
     }
 }
