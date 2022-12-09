@@ -24,8 +24,8 @@ struct PaklanApp: App {
     
     var body: some Scene {
         WindowGroup {
-            let viewModel = AppViewModel()
-            ContentView()
+            let viewModel = AuthenticationController()
+            Authentication()
                 .environmentObject(viewModel)
         }
     }
