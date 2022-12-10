@@ -54,6 +54,8 @@ struct Authentication: View {
     
     @EnvironmentObject var authEnvObj: AuthenticationController
     
+    static var userEmail = ""
+    
     var body: some View {
         NavigationView{
             if authEnvObj.signedIn{
@@ -88,7 +90,7 @@ struct SignInView: View {
                 VStack{
                     TextField("Email", text: $email)
                         .disableAutocorrection(true)
-                        .textInputAutocapitalization(.none)
+                        .autocapitalization(.none)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color.white.opacity(0.5))
@@ -96,7 +98,7 @@ struct SignInView: View {
 //                        .offset(y: -10)
                     SecureField("Password", text: $password)
                         .disableAutocorrection(true)
-                        .textInputAutocapitalization(.none)
+                        .autocapitalization(.none)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color.white.opacity(0.5))
@@ -105,6 +107,7 @@ struct SignInView: View {
                         guard !email.isEmpty, !password.isEmpty else{
                             return
                         }
+                        Authentication.userEmail = email
                         authEnvObj.signIn(email: email, password: password)
                     } label: {
                         Text("Sign In")
@@ -148,7 +151,7 @@ struct SignUpView: View {
                 VStack{
                     TextField("Email", text: $email)
                         .disableAutocorrection(true)
-                        .textInputAutocapitalization(.none)
+                        .autocapitalization(.none)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color.white.opacity(0.5))
@@ -156,7 +159,7 @@ struct SignUpView: View {
 //                        .offset(y: -10)
                     SecureField("Password", text: $password)
                         .disableAutocorrection(true)
-                        .textInputAutocapitalization(.none)
+                        .autocapitalization(.none)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color.white.opacity(0.5))
@@ -165,6 +168,7 @@ struct SignUpView: View {
                         guard !email.isEmpty, !password.isEmpty else{
                             return
                         }
+                        Authentication.userEmail = email
                         authEnvObj.signUp(email: email, password: password)
                     } label: {
                         Text("Create Account")

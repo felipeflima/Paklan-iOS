@@ -26,6 +26,8 @@
 		DB08D70A29181BA90017EB67 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DB08D70929181BA90017EB67 /* FirebaseFirestore */; };
 		DB08D70C29181BAA0017EB67 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB08D70B29181BAA0017EB67 /* FirebaseFirestoreSwift */; };
 		DB08D70E29181BAA0017EB67 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DB08D70D29181BAA0017EB67 /* FirebaseStorage */; };
+		DB1340CE2943D658004FC867 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1340CD2943D658004FC867 /* AccountView.swift */; };
+		DB1340D02943FCB7004FC867 /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1340CF2943FCB7004FC867 /* SendView.swift */; };
 		DB6A08832918517E00BC4636 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* IndexView.swift */; };
 		DB6A08842918517E00BC4636 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* IndexView.swift */; };
 		DB6A08852918517E00BC4636 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A08822918517E00BC4636 /* IndexView.swift */; };
@@ -63,6 +65,8 @@
 		DB08D6E9291815740017EB67 /* PaklanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITests.swift; sourceTree = "<group>"; };
 		DB08D6EB291815740017EB67 /* PaklanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaklanUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB08D6F829181AB30017EB67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB1340CD2943D658004FC867 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		DB1340CF2943FCB7004FC867 /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
 		DB6A08822918517E00BC4636 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
 		DB6A08872918666500BC4636 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				DB6A08872918666500BC4636 /* HomeView.swift */,
+				DB1340CD2943D658004FC867 /* AccountView.swift */,
+				DB1340CF2943FCB7004FC867 /* SendView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -317,8 +323,10 @@
 			files = (
 				DB08D6D12918156C0017EB67 /* Authentication.swift in Sources */,
 				DB6A08882918666500BC4636 /* HomeView.swift in Sources */,
+				DB1340D02943FCB7004FC867 /* SendView.swift in Sources */,
 				DB6A08832918517E00BC4636 /* IndexView.swift in Sources */,
 				DB08D6CF2918156C0017EB67 /* PaklanApp.swift in Sources */,
+				DB1340CE2943D658004FC867 /* AccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
